@@ -1,0 +1,79 @@
+.profileInSidenav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profileInSidenav .usernameP {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.profileInSidenav .profileLink {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.navlinktext {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.switch {
+  font-size: 20px;
+}
+
+.switch label {
+  font-size: 20px;
+}
+
+.sidenav {
+  background-color: #3E4044;
+}
+
+.sidenav li:hover {
+  background-color: #2B2C2E;
+}
+
+.sidenav .active {
+  background-color: #2B2C2E;
+}
+
+.sidenav img {
+  width: 90%;
+  margin-top: 15px;
+  margin-left: 5px;
+  height: auto;
+}
+
+.sidenav .home {
+  color: white;
+}
+
+.sidenav .art-work {
+  color: #CAFF95;
+}
+
+.sidenav .blogs {
+  color: #FFD850;
+}
+
+.sidenav .contests {
+  color: #7BB8FF;
+}
+
+.sidenav .forum {
+  color: #5EFFB1;
+}
+
+.sidenav .signup {
+  color: white;
+}
+
+.sidenav .login {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

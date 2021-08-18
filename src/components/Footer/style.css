@@ -1,0 +1,37 @@
+#footer {
+  height: 40px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background-color: #3E4044;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+#footer:hover {
+  color: #3E4044;
+  background: white;
+}
+
+@media screen and (max-width: 800px) {
+  #footer {
+    font-size: 11px;
+    padding-top: 12px;
+  }
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+  #footer {
+    font-size: 9px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

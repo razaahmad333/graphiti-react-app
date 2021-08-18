@@ -1,0 +1,77 @@
+.login-panel {
+  background-color: #333333;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.login-panel .aBtn {
+  width: 87%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px auto;
+  margin-top: 10px;
+  border-radius: 6px;
+  background-color: #3E4044;
+}
+
+.login-panel .btncontent {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 8px 10px;
+}
+
+.login-panel .btncontent .aname {
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.login-panel .btncontent .aicon {
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.login-panel .btncontent img {
+  width: 30px;
+}
+
+.login-panel .OR {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 200;
+  color: #989898;
+}
+
+.login-panel input {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  padding: 5px 12px;
+  font-size: 17px;
+}
+
+.login-panel .actionBtn {
+  width: 80%;
+  text-align: center;
+  background-color: #3E4044;
+  margin: 10px auto;
+  padding: 8px 15px;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+/*# sourceMappingURL=style.css.map */

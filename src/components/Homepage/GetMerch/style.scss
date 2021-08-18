@@ -1,0 +1,58 @@
+$borderRadius:6px;
+#getMerch{
+    
+    background-color: #3E4044;
+    border-radius: $borderRadius;
+    .heading{
+        font-size:30px;
+        text-align: center;
+        span{
+            color:#93f5a3;
+        }
+
+    }
+    
+    .applyNow{
+        position: relative;
+        // top: 65px;
+        background-color: #EB5757;
+        width: 80%;
+        border-radius: $borderRadius;
+        font-size: 20px;
+        height: 50px;
+        padding: 6px 12px;
+
+        &:hover{
+            background: white;
+            color: #EB5757;
+        }
+    }
+    .merchPhotos{
+        width: 80%;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .merch1{
+        border-radius: $borderRadius;
+        cursor: pointer;
+        height: 70px;
+        &:hover{
+            border: 3px #333 solid;
+
+        }
+        background: #FFD7D7;
+    }
+    .merch2{
+        border-radius: $borderRadius;
+        cursor: pointer;
+        background: #D8DCFF;
+        height: 70px;
+        &:hover{
+            border: 3px #333 solid;
+
+        }
+    }
+    
+    
+}

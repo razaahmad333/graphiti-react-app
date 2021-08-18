@@ -1,0 +1,58 @@
+#getMerch {
+  background-color: #3E4044;
+  border-radius: 6px;
+}
+
+#getMerch .heading {
+  font-size: 30px;
+  text-align: center;
+}
+
+#getMerch .heading span {
+  color: #93f5a3;
+}
+
+#getMerch .applyNow {
+  position: relative;
+  background-color: #EB5757;
+  width: 80%;
+  border-radius: 6px;
+  font-size: 20px;
+  height: 50px;
+  padding: 6px 12px;
+}
+
+#getMerch .applyNow:hover {
+  background: white;
+  color: #EB5757;
+}
+
+#getMerch .merchPhotos {
+  width: 80%;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#getMerch .merch1 {
+  border-radius: 6px;
+  cursor: pointer;
+  height: 70px;
+  background: #FFD7D7;
+}
+
+#getMerch .merch1:hover {
+  border: 3px #333 solid;
+}
+
+#getMerch .merch2 {
+  border-radius: 6px;
+  cursor: pointer;
+  background: #D8DCFF;
+  height: 70px;
+}
+
+#getMerch .merch2:hover {
+  border: 3px #333 solid;
+}
+/*# sourceMappingURL=style.css.map */

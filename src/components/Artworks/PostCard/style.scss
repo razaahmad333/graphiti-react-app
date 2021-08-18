@@ -1,0 +1,70 @@
+$borderRadius:8px;
+.postCard{
+    background: transparent ;
+    border-radius: $borderRadius;
+
+
+    .card-content{
+        padding: 0;
+    }
+
+    // img{
+    //     border-top-left-radius: $borderRadius;
+    //     border-top-right-radius: $borderRadius;
+        
+    // }
+
+    #postImage{
+        border-top-left-radius: $borderRadius;
+            border-top-right-radius: $borderRadius;
+    }
+
+    .card-image{
+        border-radius: 50px;
+    }
+    .userInfo{
+
+        display: flex;
+        // display: none;
+        // background: #EB5757;
+        background: #61646A;
+        // border-radius: 30px;
+        position: relative;
+        
+        // top: -50px;
+
+        .dp{
+
+            width: 5%;
+        }
+        .username{
+            font-size: 20px;
+            margin: 0 auto;
+            // margin-left: 40px;
+            // padding-top: 10px;
+        }
+        img{
+            height: 100%;
+               width:250%;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            
+        }
+    }
+    .card-action{
+        padding-bottom: 0;
+        padding-top: 5px;
+        background: white;
+        img{
+            margin-left: 20px;
+            width: 40%;
+
+            
+        }
+    }
+    #cardActionBorder{
+        border-bottom-left-radius: $borderRadius;
+        border-bottom-right-radius: $borderRadius;
+        
+    }   
+}

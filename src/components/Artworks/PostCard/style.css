@@ -1,0 +1,58 @@
+.postCard {
+  background: transparent;
+  border-radius: 8px;
+}
+
+.postCard .card-content {
+  padding: 0;
+}
+
+.postCard #postImage {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.postCard .card-image {
+  border-radius: 50px;
+}
+
+.postCard .userInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #61646A;
+  position: relative;
+}
+
+.postCard .userInfo .dp {
+  width: 5%;
+}
+
+.postCard .userInfo .username {
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.postCard .userInfo img {
+  height: 100%;
+  width: 250%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.postCard .card-action {
+  padding-bottom: 0;
+  padding-top: 5px;
+  background: white;
+}
+
+.postCard .card-action img {
+  margin-left: 20px;
+  width: 40%;
+}
+
+.postCard #cardActionBorder {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+/*# sourceMappingURL=style.css.map */

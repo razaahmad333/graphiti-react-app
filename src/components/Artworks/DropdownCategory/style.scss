@@ -1,0 +1,15 @@
+$borderRadius:6px;
+    .filters{
+        background: #61646A;
+        border-radius: $borderRadius;
+        text-align: center;
+        color: white;
+        font-size: 16px;
+        padding: 3px 1px;
+        cursor: pointer;
+    
+    }
+
+    .filterContainer{
+        margin-top: 40px;
+    }

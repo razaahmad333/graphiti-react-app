@@ -1,0 +1,49 @@
+.containers {
+  background: radial-gradient(#3E4044, #2B2C2E);
+  width: 100%;
+  margin: 0;
+  height: 120vh;
+  text-align: center;
+}
+
+.errorname {
+  padding-top: 140px;
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #EB5757;
+}
+
+.errordetail {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.directionToHome {
+  padding-top: 50px;
+}
+
+.directionToHome a {
+  color: #B0FFBD;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+@media screen and (max-width: 600px) {
+  .errorname {
+    font-size: 50px;
+  }
+  .errordetail {
+    font-size: 30px;
+  }
+  .directionToHome {
+    padding-top: 50px;
+  }
+  .directionToHome a {
+    color: #B0FFBD;
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

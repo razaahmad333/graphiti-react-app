@@ -1,0 +1,24 @@
+#liveContest {
+  background-color: #3E4044;
+  border-radius: 6px;
+}
+
+#liveContest img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+
+#liveContest .heading {
+  font-size: 30px;
+  text-align: center;
+}
+
+#liveContest .heading span {
+  color: #7BB8FF;
+}
+
+#liveContest .heading .circle {
+  background: red;
+}
+/*# sourceMappingURL=style.css.map */

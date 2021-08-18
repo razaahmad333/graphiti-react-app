@@ -1,0 +1,56 @@
+$borderRadius:6px;
+
+.card{
+    background-color: green;
+
+}
+
+#crda{
+    background-color: #3E4044;
+}
+#crdar{
+    background-color: #3E4044;
+}
+
+.skillCard{
+    border-radius: $borderRadius;
+    background: red;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 45px;
+
+    .card-reveal{
+        background-color: #3E4044;
+        font-size: 18px;
+        text-align: start;
+        padding-top: 5px;
+        p{
+            margin-top: 0;
+            color: white;
+        }
+        .card-title{
+            font-size: 30px;                
+            padding-bottom: 10px;
+            i{
+                font-size: 30px;
+                color: red;
+            }
+        }
+    }
+    // padding-bottom: auto;
+}
+
+.d3{
+    color: #7BB8FF;
+}
+.d2{
+    color: #B0FFBD;
+}
+.ve{
+    color: #FC3E99;
+}
+.ani{
+    color: #F2C94C;
+}
+

@@ -1,0 +1,175 @@
+.coverPhoto {
+  width: 100%;
+  height: 280px;
+  background-image: url("../../images/wallpapersden.com_minimal-ship-artwork-purple-background_1280x7202.jpg");
+  background-color: #3E4044;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.coverPhoto h1 {
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+  margin-top: 10%;
+}
+
+.coverPhoto p {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  margin: 5px 0;
+  color: #CACACA;
+}
+
+.coverPhoto .profilePicture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #333;
+}
+
+.coverPhoto .details {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+}
+
+.coverPhoto img {
+  width: 15%;
+}
+
+.myuploads {
+  padding: 5px 10px;
+  background-color: #3E4044;
+  border-radius: 10px;
+}
+
+.myuploads .headers {
+  text-align: center;
+  color: #CAFF95;
+  font-size: 20px;
+}
+
+.myuploads .card-panel {
+  height: 200px;
+}
+
+.myuploads .upload1 {
+  background-color: #F2C94C;
+}
+
+.myuploads .upload2 {
+  background-color: #6FCF97;
+}
+
+.myuploads .upload3 {
+  background-color: #F2994A;
+}
+
+.myuploads .upload4 {
+  background-color: #EB5757;
+}
+
+.myuploads .upload5 {
+  background-color: #FFF7B0;
+}
+
+.myuploads .upload6 {
+  background-color: #9B51E0;
+}
+
+.mybio {
+  background-color: #3E4044;
+  border-radius: 10px;
+}
+
+.mybio .headers {
+  color: #EB5757;
+  font-size: 20px;
+}
+
+.mysaves {
+  background-color: #3E4044;
+  border-radius: 10px;
+}
+
+.mysaves .headers {
+  margin-bottom: 20px;
+  color: #7BB8FF;
+  font-size: 20px;
+}
+
+.panels {
+  height: 100px;
+}
+
+.panels .card-panels {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.panels .p1 {
+  background-color: #F2C94C;
+  position: relative;
+  left: 0px;
+}
+
+.panels .p2 {
+  background-color: #6FCF97;
+  position: relative;
+  left: 40px;
+  top: -100px;
+}
+
+.panels .p3 {
+  background-color: #F2994A;
+  position: relative;
+  left: 80px;
+  top: -200px;
+}
+
+.panels .p4 {
+  background-color: #EB5757;
+  position: relative;
+  left: 120px;
+  top: -300px;
+}
+
+.panels .p5 {
+  background-color: #FFF7B0;
+  position: relative;
+  left: 160px;
+  top: -400px;
+}
+
+.panels .p6 {
+  background-color: #9B51E0;
+  position: relative;
+  left: 200px;
+  top: -500px;
+}
+
+@media screen and (min-width: 850px) {
+  .coverPhoto .details {
+    width: 25%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

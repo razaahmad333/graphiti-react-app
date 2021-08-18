@@ -1,0 +1,42 @@
+#paginationSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#paginationSection .chevrn {
+  background: transparent;
+}
+
+#paginationSection .active {
+  background: #7BB8FF;
+  border-radius: 50%;
+}
+
+#paginationSection .active a {
+  color: white;
+}
+
+#paginationSection li {
+  border-radius: 50%;
+  margin-left: 4px;
+  margin-right: 4px;
+  width: 30px;
+  background: white;
+}
+
+#paginationSection li a {
+  color: #7BB8FF;
+}
+
+#paginationSection .disabled a {
+  color: #333;
+}
+
+#bottomLine {
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=style.css.map */

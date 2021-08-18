@@ -1,0 +1,27 @@
+$borderRadius:6px;
+#WannaHelp{
+    background-color: #3E4044;
+    border-radius: $borderRadius;
+       .heading{
+        font-size:30px;
+        text-align: center;
+        span{
+            color:rgb(201, 51, 51);
+        }
+
+    }
+    
+    #applyNow{
+        background-color: #EB5757;
+        width: 80%;
+        border-radius: $borderRadius;
+        font-size: 20px;
+        height: 50px;
+        padding: 6px 12px;
+        // margin-top: 100px;
+        &:hover{
+            background: white;
+            color: #EB5757;
+        }
+    }   
+}

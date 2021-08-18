@@ -1,0 +1,28 @@
+#WannaHelp {
+  background-color: #3E4044;
+  border-radius: 6px;
+}
+
+#WannaHelp .heading {
+  font-size: 30px;
+  text-align: center;
+}
+
+#WannaHelp .heading span {
+  color: #c93333;
+}
+
+#WannaHelp #applyNow {
+  background-color: #EB5757;
+  width: 80%;
+  border-radius: 6px;
+  font-size: 20px;
+  height: 50px;
+  padding: 6px 12px;
+}
+
+#WannaHelp #applyNow:hover {
+  background: white;
+  color: #EB5757;
+}
+/*# sourceMappingURL=style.css.map */

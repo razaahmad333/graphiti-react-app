@@ -1,0 +1,14 @@
+.filters {
+  background: #61646A;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  padding: 3px 1px;
+  cursor: pointer;
+}
+
+.filterContainer {
+  margin-top: 40px;
+}
+/*# sourceMappingURL=style.css.map */
