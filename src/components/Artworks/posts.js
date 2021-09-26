@@ -6,7 +6,7 @@ import post4 from "../../images/img22.jpg";
 import post5 from "../../images/kurz.jpg";
 import post6 from "../../images/images.jfif";
 import post7 from "../../images/caro4.png";
-export default [
+const posts = [
   {
     name: "Shoeb Iliyas",
     dp: dp,
@@ -20,69 +20,71 @@ export default [
     likes: 2,
   },
   {
-    name: "Sariya Khatoon",
+    name: "Charles Xavier",
     dp: dp,
     post: post6,
     likes: 2,
   },
   {
-    name: "Shahid Raza",
+    name: "Jaami",
     dp: dp,
     post: post3,
     likes: 2,
   },
   {
-    name: "Arshad Raza",
+    name: "Elon Musk",
     dp: dp,
     post: post2,
     likes: 2,
   },
   {
-    name: "Sadika Khatoon",
+    name: "John Green",
     dp: dp,
     post: post5,
     likes: 2,
   },
   {
-    name: "Aishan Raza",
+    name: "Tony Stark",
     dp: dp,
     post: post6,
     likes: 2,
   },
   {
-    name: "Ahmad Raza",
+    name: "Md Tamir",
     dp: dp,
     post: post1,
     likes: 2,
   },
   {
-    name: "Sariya Khatoon",
+    name: "Cool man",
     dp: dp,
     post: post2,
     likes: 2,
   },
   {
-    name: "Shahid Raza",
+    name: "Quoter",
     dp: dp,
     post: post6,
     likes: 2,
   },
   {
-    name: "Arshad Raza",
+    name: "gamer333",
     dp: dp,
     post: post2,
     likes: 2,
   },
   {
-    name: "Sadika Khatoon",
+    name: "Zara Khan",
     dp: dp,
     post: post5,
     likes: 2,
   },
   {
-    name: "Aishan Raza",
+    name: "Veritasium",
     dp: dp,
     post: post4,
     likes: 2,
   },
 ];
+
+export default posts;

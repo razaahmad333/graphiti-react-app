@@ -5,7 +5,7 @@ function E404() {
     <div class="containers">
       <div class="errorname">404</div>
       <div class="errordetail">Page Not Found :(</div>
-      <div class="errordetail">Kyunki Shoeb Bhai ne Design nhi kiya</div>
+      <div class="errordetail">Work In Progress......</div>
       <div class="directionToHome">
         Take me back to : <Link to="/"> www.graphiti.in</Link>
       </div>

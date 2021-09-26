@@ -7,7 +7,7 @@ import Sidebar from "../Sidebar/sidebar";
 import graphitiLogo from "../../images/WebsiteTextLogo2.png";
 import { Link } from "react-router-dom";
 import ReactDOM from "react-dom";
-import DropdownContent from "../DropdownContent/dropdownContent";
+// import DropdownContent from "../DropdownContent/dropdownContent";
 class Navigation extends React.Component {
   constructor(props) {
     super(props);
@@ -21,7 +21,7 @@ class Navigation extends React.Component {
   componentDidMount() {
     this.updateHighlight(window.location.pathname);
     const dropdownProfileNav = document.querySelectorAll(".dropdown-trigger");
-    const instance = M.Dropdown.init(dropdownProfileNav, {
+    M.Dropdown.init(dropdownProfileNav, {
       container: document.querySelector("#navDropdownContainer"),
     });
   }

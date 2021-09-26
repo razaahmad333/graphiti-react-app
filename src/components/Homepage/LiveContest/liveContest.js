@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import "./style.css";
 import trophyIcon from "../../../images/TrophyIcon.svg";
 export default class LiveContest extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div>
@@ -17,7 +14,7 @@ export default class LiveContest extends Component {
             nesciunt vitae qui blanditiis, repudiandae reiciendis
             perspiciatis.nesciunt vita
           </p>
-          <img src={trophyIcon} />
+          <img src={trophyIcon} alt="this is photoso" />
         </div>
       </div>
     );

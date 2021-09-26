@@ -2,10 +2,6 @@ import React, { Component } from "react";
 import "./style.css";
 
 class AlreadyEnded extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   endedEventComponent() {
     return (
       <div className="event1 card-panel hoverable">

@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import "./style.css";
-import img1 from "../../../images/kurz.jpg";
-import dp from "../../../images/imghai.jpg";
+// import img1 from "../../../images/kurz.jpg";
+// import dp from "../../../images/imghai.jpg";
 import heart from "../../../images/heart.png";
 import bookmark from "../../../images/bookmark.png";
 import share from "../../../images/share.png";
 export default class PostCard extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div>

@@ -3,9 +3,6 @@ import AlreadyEnded from "./AlreadyEnded/alreadyEnded";
 import LiveRightNow from "./LiveRightNow/liveRightNow";
 import UpcomingEvent from "./UpcomingEvent/upcomingEvent";
 class Contest extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div>

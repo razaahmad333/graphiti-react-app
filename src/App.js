@@ -1,16 +1,11 @@
 import Home from "./components/Homepage/home";
-import {
-  BrowserRouter,
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "materialize-css/dist/css/materialize.min.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import ArtWork from "./components/Artworks/artworks";
-import Blog from "./components/Blogs/blogs";
+// import Blog from "./components/Blogs/blogs";
 import Contest from "./components/Contests/contest";
-import Forum from "./components/Forums/forums";
+// import Forum from "./components/Forums/forums";
 import Navigation from "./components/Navbar/navibar";
 import DropdownContent from "./components/DropdownContent/dropdownContent";
 import GFooter from "./components/Footer/gFooter";

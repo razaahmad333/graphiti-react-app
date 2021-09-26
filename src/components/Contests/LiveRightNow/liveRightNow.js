@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
 class LiveRightNow extends Component {
-  constructor(props) {
-    super(props);
-  }
   liveEventComponent() {
     return (
       <div className="event1 card-panel hoverable">

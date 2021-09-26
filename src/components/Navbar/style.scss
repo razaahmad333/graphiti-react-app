@@ -1,192 +1,186 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
-$borderRadius:6px;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+$borderRadius: 5px;
 
-body{
-    background-color: #2B2C2E;
-    font-family: 'Quicksand', sans-serif;       
+body {
+  background-color: #2b2c2e;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+}
+
+.nav-bar {
+  background: #3e4044;
+  margin-bottom: 0;
+  padding: 10px 2px;
+  height: 60px;
+}
+
+.logoimg {
+  width: 100%;
+}
+
+.explore-links {
+  display: flex;
+  // padding-top: 8px;
+  justify-content: space-evenly;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  .home {
     color: white;
-}
 
-.nav-bar{
-    background: #3E4044;
-    margin-bottom: 0;
-    padding: 10px 2px;
-    height: 60px;
-
-}
-
-.logoimg{
-    width: 100%;
-}
-
-.explore-links{
-    display: flex;
-    // padding-top: 8px;
-    justify-content: space-evenly;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 29px;
-    .home{
-        color:white;
-
-        .active{
-            border-bottom: 2px white solid;
-        }
-    }    
-    .art-work{
-        color:  #CAFF95;
-        
-        .active{
-            border-bottom: 2px #CAFF95 solid;
-        }
+    .active {
+      border-bottom: 2px white solid;
     }
-    .blogs{
-        color: #FFD850;
-    
-        .active{
-            border-bottom: 2px #FFD850 solid;
-        }
+  }
+  .art-work {
+    color: #caff95;
+
+    .active {
+      border-bottom: 2px #caff95 solid;
     }
-    .contests{
-        color:#7BB8FF;
-        
-        .active{
-            border-bottom: 2px #7BB8FF solid;
-        }
+  }
+  .blogs {
+    color: #ffd850;
+
+    .active {
+      border-bottom: 2px #ffd850 solid;
     }
-    .forum{
-        color: #5EFFB1;
-        
-        .active{
-            border-bottom: 2px #5EFFB1 solid;
-        }
+  }
+  .contests {
+    color: #7bb8ff;
+
+    .active {
+      border-bottom: 2px #7bb8ff solid;
     }
+  }
+  .forum {
+    color: #5effb1;
+
+    .active {
+      border-bottom: 2px #5effb1 solid;
+    }
+  }
 }
 
-.navlinktext{
-    font-style: normal;
-    font-weight: 500;
-    line-height: 29px;
-    font-size: 20px;
-    padding-top: 10px;
-
+.navlinktext {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  font-size: 20px;
+  padding-top: 10px;
 }
 
-.hamburgur{
-    display: none;
+.hamburgur {
+  display: none;
 }
-.account-links{
-    display: flex;
-    justify-content: space-evenly;
-    border-left:2.5px solid #61646A;
+.account-links {
+  display: flex;
+  justify-content: space-evenly;
+  border-left: 2.5px solid #61646a;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+
+  .signup {
+    background: #eb5757;
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
-    line-height: 29px;
-    color: #FFFFFF;
-
-    .signup{
-        background: #EB5757;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 25px;
-        font-size: 25px;
-        border-radius: $borderRadius;
-    }
-    .login{
-        color: white;
-    }   
+    font-size: 25px;
+    border-radius: $borderRadius;
+  }
+  .login {
+    color: white;
+  }
 }
-.modal{
-    width: 40%;
-    padding: 0;
-    background-color: transparent;
+.modal {
+  width: 40%;
+  padding: 0;
+  background-color: transparent;
 }
 
-.switch{
+.switch {
+  font-size: 20px;
+  label {
     font-size: 20px;
-    label{
-        font-size: 20px;
-    }
+  }
 }
 
-.dropdown-content{
-    background: #333;
-    border-radius:$borderRadius;
-    position: relative;
-    top: -50px;
-    // left: -10px;
-    width: 100px;
-    li{
-        a{
-            color: white;
-        }
+.dropdown-content {
+  background: #333;
+  border-radius: $borderRadius;
+  position: relative;
+  top: -50px;
+  // left: -10px;
+  width: 100px;
+  li {
+    a {
+      color: white;
     }
-    
-    li:hover{
-        background: #61646A;
-        a{
-            color:#B0FFBD;
-        }
+  }
+
+  li:hover {
+    background: #61646a;
+    a {
+      color: #b0ffbd;
     }
+  }
 }
 
-.material-icons{
-    cursor: pointer;
+.material-icons {
+  cursor: pointer;
 }
-.profileLink{
+.profileLink {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+}
+#accountBtns {
+  display: flex;
+  justify-content: space-evenly;
+  border-left: 2.5px solid #61646a;
+  height: 40px;
+  .profileLink {
     width: 40px;
     height: 40px;
     background-color: black;
     border-radius: 50%;
-}
-#accountBtns{
-    display: flex;
-    justify-content: space-evenly;
-    border-left:2.5px solid #61646A;
-    height: 40px;
-    .profileLink{
-        width: 40px;
-        height: 40px;
-        background-color: black;
-        border-radius: 50%;
-    }
+  }
 }
 @media screen and (max-width: 992px) {
-    .logoimg{
-        width: 130%;
-        margin-left: 100%;
+  .logoimg {
+    width: 130%;
+    margin-left: 100%;
+  }
+  .hamburgur {
+    display: block;
+    i {
+      font-size: 40px;
+      display: block;
+      padding-left: 10px;
     }
-    .hamburgur{
-        display: block;
-        i{
-            font-size: 50px;
-            display: block;
-            padding-left: 10px;
-        }
-    }
+  }
 
-    .modal{
-        width: 65%;
-    }
+  .modal {
+    width: 65%;
+  }
 }
 
-@media screen and (max-width:750px){
-    .logoimg{
-        width: 250%;
-        margin-left: 100%;
-    }
+@media screen and (max-width: 750px) {
+  .logoimg {
+    width: 250%;
+    margin-left: 100%;
+  }
 }
 
-
-@media screen and (max-width:600px){
-    .logoimg{
-        width: 360%;
-        margin-top:5px;
-        margin-left: 100%;
-    }
-
+@media screen and (max-width: 600px) {
+  .logoimg {
+    width: 360%;
+    margin-top: 5px;
+    margin-left: 100%;
+  }
 }
-
-

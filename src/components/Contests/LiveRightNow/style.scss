@@ -1,58 +1,62 @@
+.liveEvent {
+  .card-panel {
+    background: #3e4044;
+    border-radius: 5px;
 
-.liveEvent{
-    .card-panel{
-        background: #3E4044;
-        padding-top: 6px;
-        padding-bottom: 1px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+  }
+
+  .timeCounter {
+    color: #5effb1;
+  }
+
+  .eventHeading {
+    font-size: 30px;
+    display: flex;
+    .circle {
+      background: #caff95;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      margin-top: 12px;
+      margin-right: 4px;
     }
+  }
 
-    .timeCounter{
-        color: #5EFFB1;
+  .competeBtn {
+    background: #7bb8ff;
+    color: white;
+    width: 100%;
+    text-align: center;
+    // width: 110px;
+    height: 40px;
+    border-radius: 5px;
+
+    font-size: 20px;
+    padding: 6px 12px;
+    cursor: pointer;
+
+    &:hover {
+      background: white;
+      color: #7bb8ff;
     }
-
-
-    .eventHeading{
-        font-size: 30px;
-        display: flex;
-        .circle{
-            background: #CAFF95;
-            width: 25px;
-            height: 25px;
-            border-radius: 50%;
-            margin-top: 12px;
-            margin-right: 4px;
-        }
-    }
-
-    .competeBtn{
-        background: #7BB8FF;
-        color: white;
-        width: 100%;
-        text-align: center;
-        // width: 110px;
-        height: 40px;
-
-        font-size: 20px;
-        padding: 6px 12px;
-        cursor: pointer;
-
-        &:hover{
-            background: white;
-            color: #7BB8FF;
-        }
-    }
+  }
 }
 
-.container{
-    width: 80%;
+.container {
+  width: 80%;
 }
 
-@media screen and (max-width:600px){
-    .liveEvent{
-       text-align: center;
-   
-       .competeBtn{
-           width: 50%;
-           margin: 2px auto;
-       } 
-   }  }
+@media screen and (max-width: 600px) {
+  .liveEvent {
+    text-align: center;
+    .card-panel {
+      font-size: 1.4em;
+    }
+    .competeBtn {
+      width: 50%;
+      margin: 2px auto;
+    }
+  }
+}

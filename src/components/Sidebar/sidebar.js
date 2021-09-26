@@ -2,7 +2,7 @@ import React from "react";
 import M from "materialize-css";
 import "./style.css";
 import graphitiLogo from "../../images/WebsiteTextLogo2.png";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ReactDOM from "react-dom";
 import DropdownContent from "../DropdownContent/dropdownContent";
 class Sidebar extends React.Component {
@@ -39,15 +39,15 @@ class Sidebar extends React.Component {
     ReactDOM.findDOMNode(e.target).parentNode.className = "active";
   }
   render() {
-    const g = document.querySelector("#mobile-demo")
-      ? this.updateHighlightBackground(this.props.currentUrlPathname)
-      : "";
+    document.querySelector("#mobile-demo") &&
+      this.updateHighlightBackground(this.props.currentUrlPathname);
+
     return (
       <div>
         {" "}
         <ul className="sidenav" id="mobile-demo">
           <li>
-            <img src={graphitiLogo} alt="" />
+            <img src={graphitiLogo} className="graphitiLogos" alt="logos" />
           </li>
           <li>
             <Link to="/" className="active" onClick={this.highlightBackground}>

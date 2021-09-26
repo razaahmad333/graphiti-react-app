@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
 class SkillCard extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div>

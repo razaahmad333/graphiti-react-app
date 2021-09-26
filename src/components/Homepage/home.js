@@ -6,9 +6,6 @@ import SkillCard from "./SkillCard/skillCard";
 import Slideshow from "./Slideshow/slideshow";
 import WannaHelp from "./WannaHelp/wannaHelp";
 class Home extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div>

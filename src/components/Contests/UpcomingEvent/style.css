@@ -3,14 +3,15 @@
 }
 
 .commingEvent .card-panel {
+  border-radius: 5px;
   text-align: center;
-  background: #3E4044;
-  padding-top: 6px;
+  background: #3e4044;
+  padding-top: 10px;
   padding-bottom: 1px;
 }
 
 .commingEvent .timeCounter {
-  color: #5EFFB1;
+  color: #5effb1;
 }
 
 .commingEvent .eventHeading {
@@ -21,7 +22,7 @@
 }
 
 .commingEvent .eventHeading .circle {
-  background: #F2C94C;
+  background: #f2c94c;
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -31,9 +32,10 @@
 
 .commingEvent .Btn {
   margin: 1px auto;
-  background: #7BB8FF;
+  background: #7bb8ff;
   color: white;
   width: 50%;
+  border-radius: 5px;
   height: 40px;
   font-size: 20px;
   padding: 6px 12px;
@@ -42,12 +44,15 @@
 
 .commingEvent .Btn:hover {
   background: white;
-  color: #7BB8FF;
+  color: #7bb8ff;
 }
 
 @media screen and (max-width: 600px) {
   .commingEvent {
     text-align: center;
+  }
+  .commingEvent .card-panel {
+    font-size: 1.4em;
   }
   .commingEvent .Btn {
     width: 70%;

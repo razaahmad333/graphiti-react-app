@@ -3,10 +3,6 @@ import canvas from "../../images/canvas.png";
 import like from "../../images/like.png";
 import "./style.css";
 export default class AccountPage extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div>
@@ -21,11 +17,11 @@ export default class AccountPage extends Component {
 
           <div className="details">
             <div className="artworks">
-              <img src={canvas} />
+              <img src={canvas} alt="photohai" />
               <span>ArtWorks: 0</span>
             </div>
             <div className="likes">
-              <img src={like} />
+              <img src={like} alt="photohai" />
               <span>Likes: 0</span>
             </div>
           </div>

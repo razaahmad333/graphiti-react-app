@@ -1,7 +1,8 @@
 .endedEvent .card-panel {
-  background: #3E4044;
-  padding-top: 6px;
+  background: #3e4044;
+  padding-top: 10px;
   padding-bottom: 1px;
+  border-radius: 5px;
 }
 
 .endedEvent .eventHeading {
@@ -12,7 +13,7 @@
 }
 
 .endedEvent .eventHeading .circle {
-  background: #EB5757;
+  background: #eb5757;
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -21,11 +22,12 @@
 }
 
 .endedEvent .winnerBtn {
-  background: #EB5757;
+  background: #eb5757;
   color: white;
   width: 100%;
   text-align: center;
   height: 40px;
+  border-radius: 5px;
   font-size: 20px;
   padding: 6px 12px;
   cursor: pointer;
@@ -33,12 +35,15 @@
 
 .endedEvent .winnerBtn:hover {
   background: white;
-  color: #EB5757;
+  color: #eb5757;
 }
 
 @media screen and (max-width: 600px) {
   .endedEvent {
     text-align: center;
+  }
+  .endedEvent .card-panel {
+    font-size: 1.4em;
   }
   .endedEvent .winnerBtn {
     width: 50%;

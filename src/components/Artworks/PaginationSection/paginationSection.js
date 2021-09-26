@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
 class PaginationSection extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     for (let li of Array.from(
       document.querySelectorAll(".pagination")[0].children

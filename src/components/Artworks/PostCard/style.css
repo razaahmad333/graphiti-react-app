@@ -1,6 +1,6 @@
 .postCard {
   background: transparent;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .postCard .card-content {
@@ -8,19 +8,19 @@
 }
 
 .postCard #postImage {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .postCard .card-image {
-  border-radius: 50px;
+  border-radius: 5px;
 }
 
 .postCard .userInfo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #61646A;
+  background: #61646a;
   position: relative;
 }
 
@@ -48,11 +48,11 @@
 
 .postCard .card-action img {
   margin-left: 20px;
-  width: 40%;
+  width: 30%;
 }
 
 .postCard #cardActionBorder {
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */

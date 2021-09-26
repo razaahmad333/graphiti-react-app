@@ -4,6 +4,10 @@
   display: flex;
 }
 
+.profileInSidenav .graphitiLogos {
+  width: 80%;
+}
+
 .profileInSidenav .usernameP {
   margin-left: 20px;
   font-size: 20px;
@@ -31,15 +35,15 @@
 }
 
 .sidenav {
-  background-color: #3E4044;
+  background-color: #3e4044;
 }
 
 .sidenav li:hover {
-  background-color: #2B2C2E;
+  background-color: #2b2c2e;
 }
 
 .sidenav .active {
-  background-color: #2B2C2E;
+  background-color: #2b2c2e;
 }
 
 .sidenav img {
@@ -54,19 +58,19 @@
 }
 
 .sidenav .art-work {
-  color: #CAFF95;
+  color: #caff95;
 }
 
 .sidenav .blogs {
-  color: #FFD850;
+  color: #ffd850;
 }
 
 .sidenav .contests {
-  color: #7BB8FF;
+  color: #7bb8ff;
 }
 
 .sidenav .forum {
-  color: #5EFFB1;
+  color: #5effb1;
 }
 
 .sidenav .signup {

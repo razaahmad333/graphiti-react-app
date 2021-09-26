@@ -1,11 +1,12 @@
 .liveEvent .card-panel {
-  background: #3E4044;
-  padding-top: 6px;
+  background: #3e4044;
+  border-radius: 5px;
+  padding-top: 10px;
   padding-bottom: 1px;
 }
 
 .liveEvent .timeCounter {
-  color: #5EFFB1;
+  color: #5effb1;
 }
 
 .liveEvent .eventHeading {
@@ -16,7 +17,7 @@
 }
 
 .liveEvent .eventHeading .circle {
-  background: #CAFF95;
+  background: #caff95;
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -25,11 +26,12 @@
 }
 
 .liveEvent .competeBtn {
-  background: #7BB8FF;
+  background: #7bb8ff;
   color: white;
   width: 100%;
   text-align: center;
   height: 40px;
+  border-radius: 5px;
   font-size: 20px;
   padding: 6px 12px;
   cursor: pointer;
@@ -37,7 +39,7 @@
 
 .liveEvent .competeBtn:hover {
   background: white;
-  color: #7BB8FF;
+  color: #7bb8ff;
 }
 
 .container {
@@ -47,6 +49,9 @@
 @media screen and (max-width: 600px) {
   .liveEvent {
     text-align: center;
+  }
+  .liveEvent .card-panel {
+    font-size: 1.4em;
   }
   .liveEvent .competeBtn {
     width: 50%;

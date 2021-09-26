@@ -1,5 +1,6 @@
 #liveContest {
-  background-color: #3E4044;
+  background-color: #3e4044;
+  font-size: 1.4em;
   border-radius: 6px;
 }
 
@@ -15,7 +16,7 @@
 }
 
 #liveContest .heading span {
-  color: #7BB8FF;
+  color: #7bb8ff;
 }
 
 #liveContest .heading .circle {

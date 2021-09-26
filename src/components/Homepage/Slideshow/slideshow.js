@@ -5,9 +5,6 @@ import caro3 from "../../../images/caro3.jpg";
 import caro4 from "../../../images/caro4.png";
 import M from "materialize-css";
 class Slideshow extends Component {
-  constructor(props) {
-    super(props);
-  }
   componentDidMount() {
     const carousel = document.querySelector("#carousel1");
     const instance = M.Carousel.init(carousel, {

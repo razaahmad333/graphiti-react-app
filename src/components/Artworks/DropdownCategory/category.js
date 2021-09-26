@@ -2,17 +2,13 @@ import React, { Component } from "react";
 import "./style.css";
 import M from "materialize-css";
 export default class DCategory extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     const dropdownSkill = document.querySelector("#dropdownSkill");
-    const instance1 = M.Dropdown.init(dropdownSkill, {
+    M.Dropdown.init(dropdownSkill, {
       container: document.querySelector("#dropdownSkillContainer"),
     });
     const dropdownTime = document.querySelector("#dropdownTime");
-    const instance2 = M.Dropdown.init(dropdownTime, {
+    M.Dropdown.init(dropdownTime, {
       container: document.querySelector("#dropdownTimeContainer"),
     });
   }

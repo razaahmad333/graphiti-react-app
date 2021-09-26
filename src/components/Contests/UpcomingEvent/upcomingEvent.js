@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
 class UpcomingEvent extends Component {
-  constructor(props) {
-    super(props);
-  }
   upcomingEventComponent() {
     return (
       <div className="event1 card-panel hoverable">

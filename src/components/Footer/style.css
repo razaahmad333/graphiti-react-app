@@ -1,8 +1,7 @@
 #footer {
-  height: 40px;
   padding-top: 5px;
   padding-bottom: 10px;
-  background-color: #3E4044;
+  background-color: #3e4044;
   color: white;
   font-size: 20px;
   width: 100%;
@@ -12,7 +11,7 @@
 }
 
 #footer:hover {
-  color: #3E4044;
+  color: #3e4044;
   background: white;
 }
 

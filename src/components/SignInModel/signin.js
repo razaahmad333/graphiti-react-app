@@ -4,10 +4,6 @@ import M from "materialize-css";
 import fbLogo from "../../images/fb.png";
 import googleLogo from "../../images/google.png";
 class SignIn extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     const modal = document.querySelector("#signUpModal");
     const instance = M.Modal.init(modal, {

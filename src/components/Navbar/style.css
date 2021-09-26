@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 body {
-  background-color: #2B2C2E;
-  font-family: 'Quicksand', sans-serif;
+  background-color: #2b2c2e;
+  font-family: "Quicksand", sans-serif;
   color: white;
 }
 
 .nav-bar {
-  background: #3E4044;
+  background: #3e4044;
   margin-bottom: 0;
   padding: 10px 2px;
   height: 60px;
@@ -21,8 +21,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -38,35 +38,35 @@ body {
 }
 
 .explore-links .art-work {
-  color: #CAFF95;
+  color: #caff95;
 }
 
 .explore-links .art-work .active {
-  border-bottom: 2px #CAFF95 solid;
+  border-bottom: 2px #caff95 solid;
 }
 
 .explore-links .blogs {
-  color: #FFD850;
+  color: #ffd850;
 }
 
 .explore-links .blogs .active {
-  border-bottom: 2px #FFD850 solid;
+  border-bottom: 2px #ffd850 solid;
 }
 
 .explore-links .contests {
-  color: #7BB8FF;
+  color: #7bb8ff;
 }
 
 .explore-links .contests .active {
-  border-bottom: 2px #7BB8FF solid;
+  border-bottom: 2px #7bb8ff solid;
 }
 
 .explore-links .forum {
-  color: #5EFFB1;
+  color: #5effb1;
 }
 
 .explore-links .forum .active {
-  border-bottom: 2px #5EFFB1 solid;
+  border-bottom: 2px #5effb1 solid;
 }
 
 .navlinktext {
@@ -86,23 +86,23 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  border-left: 2.5px solid #61646A;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  border-left: 2.5px solid #61646a;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
   line-height: 29px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .account-links .signup {
-  background: #EB5757;
+  background: #eb5757;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
   font-size: 25px;
-  border-radius: 6px;
+  border-radius: 5px;
 }
 
 .account-links .login {
@@ -125,7 +125,7 @@ body {
 
 .dropdown-content {
   background: #333;
-  border-radius: 6px;
+  border-radius: 5px;
   position: relative;
   top: -50px;
   width: 100px;
@@ -136,11 +136,11 @@ body {
 }
 
 .dropdown-content li:hover {
-  background: #61646A;
+  background: #61646a;
 }
 
 .dropdown-content li:hover a {
-  color: #B0FFBD;
+  color: #b0ffbd;
 }
 
 .material-icons {
@@ -159,9 +159,9 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  border-left: 2.5px solid #61646A;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  border-left: 2.5px solid #61646a;
   height: 40px;
 }
 
@@ -181,7 +181,7 @@ body {
     display: block;
   }
   .hamburgur i {
-    font-size: 50px;
+    font-size: 40px;
     display: block;
     padding-left: 10px;
   }
@@ -202,6 +202,10 @@ body {
     width: 360%;
     margin-top: 5px;
     margin-left: 100%;
+  }
+
+  .modal {
+    width: 90%;
   }
 }
 /*# sourceMappingURL=style.css.map */

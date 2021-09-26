@@ -4,12 +4,9 @@ import M from "materialize-css";
 import fbLogo from "../../images/fb.png";
 import googleLogo from "../../images/google.png";
 class Login extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   componentDidMount() {
     const modal = document.querySelector("#loginModal");
-    const instance = M.Modal.init(modal, {
+    M.Modal.init(modal, {
       onOpenEnd: () => {
         this.props.toCloseSidebar();
       },

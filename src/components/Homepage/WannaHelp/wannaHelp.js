@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
 export default class WannaHelp extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div>

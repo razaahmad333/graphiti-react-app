@@ -1,52 +1,54 @@
+.endedEvent {
+  .card-panel {
+    background: #3e4044;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    border-radius: 5px;
+  }
 
-.endedEvent{
-    .card-panel{
-        background: #3E4044;
-        padding-top: 6px;
-        padding-bottom: 1px;
+  .eventHeading {
+    font-size: 30px;
+    display: flex;
+    .circle {
+      background: #eb5757;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      margin-top: 12px;
+      margin-right: 4px;
     }
+  }
 
+  .winnerBtn {
+    background: #eb5757;
+    color: white;
+    width: 100%;
+    text-align: center;
+    // width: 110px;
+    height: 40px;
+    border-radius: 5px;
 
-    .eventHeading{
-        font-size: 30px;
-        display: flex;
-        .circle{
-            background: #EB5757;
-            width: 25px;
-            height: 25px;
-            border-radius: 50%;
-            margin-top: 12px;
-            margin-right: 4px;
-        }
+    font-size: 20px;
+    padding: 6px 12px;
+    cursor: pointer;
+
+    &:hover {
+      background: white;
+      color: #eb5757;
     }
-
-    .winnerBtn{
-        background: #EB5757;
-        color: white;
-        width: 100%;
-        text-align: center;
-        // width: 110px;
-        height: 40px;
-
-        font-size: 20px;
-        padding: 6px 12px;
-        cursor: pointer;
-
-        &:hover{
-            background: white;
-            color: #EB5757;
-        }
-    }
+  }
 }
 
-@media screen and (max-width:600px){
-   .endedEvent{
-       text-align: center;
-   
-       .winnerBtn{
-           width: 50%;
-           margin: 2px auto;
-       } 
-   }
-   
+@media screen and (max-width: 600px) {
+  .endedEvent {
+    text-align: center;
+    .card-panel {
+      font-size: 1.4em;
+    }
+
+    .winnerBtn {
+      width: 50%;
+      margin: 2px auto;
+    }
+  }
 }
